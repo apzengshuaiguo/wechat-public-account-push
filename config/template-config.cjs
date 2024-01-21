@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '亲爱的姐姐, 早上好呀',
     desc: `
       **{{date.DATA}}**
       
@@ -24,7 +24,7 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      今天是我们相恋的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
