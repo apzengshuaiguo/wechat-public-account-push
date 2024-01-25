@@ -6,12 +6,14 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  // 请将以下代码按照图示粘贴到对应位置
+  USE_PASSAGE: 'push-plus',
 
-  // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxd6578e9dde939db9',
+  // // 使用微信测试号：公众号APP_ID
+  // APP_ID: 'wxd6578e9dde939db9',
 
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '6165549cafdcacc243a61d3d00da7bef',
+  // // 使用微信测试号：公众号APP_SECRET
+  // APP_SECRET: '6165549cafdcacc243a61d3d00da7bef',
 
   PROVINCE: '云南',
   CITY: '昆明',
@@ -21,11 +23,11 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '姐姐',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'odUTO6ePMhfIR9DMaa0wzdcTrAFw',
+      id: 'd03736322d2d42099bccb7752f81c08d',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qbsSx7Mi2VWpEgIRufVfTmQyek6QtjAVcx9Z8zRyUWc',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      // horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -36,7 +38,7 @@ const USER_CONFIG = {
           type: '生日', name: '弟弟', year: '2000', date: '01-03',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2023', date: '08-24',
+          type: '节日', name: '相恋纪念日', year: '2023', date: '12-02',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -53,7 +55,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'bRJT9aWd2iuyb9GIeCZ4ABS-SvBL4AQ6328t3oPdWiI',
+  CALLBACK_TEMPLATE_ID: '0002',
 
   CALLBACK_USERS: [
     {
