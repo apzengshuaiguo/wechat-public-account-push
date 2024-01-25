@@ -6,13 +6,12 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-  USE_PASSAGE: 'server-chan',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wxd6578e9dde939db9',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '6165549cafdcacc243a61d3d00da7bef',
 
   PROVINCE: '云南',
   CITY: '昆明',
@@ -20,17 +19,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '姐姐',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'SCT228781Tfj3a1wuZzZ2B0QRExL3pH3DP',
+      id: 'odUTO6ePMhfIR9DMaa0wzdcTrAFw',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: 'qbsSx7Mi2VWpEgIRufVfTmQyek6QtjAVcx9Z8zRyUWc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '姐姐', year: '1998', date: '06-18',
+          type: '生日', name: '姐姐', year: '1998', date: '06-18',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -44,21 +43,23 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2023-12-02' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        // 认识的日子
+        { keyword: 'meet_day', date: '2023-04-20' },
+        // 初遇的日子
+        { keyword: 'meet2_day', date: '2023-08-24' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'bRJT9aWd2iuyb9GIeCZ4ABS-SvBL4AQ6328t3oPdWiI',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'odUTO6ePMhfIR9DMaa0wzdcTrAFw',
     }
   ],
 
