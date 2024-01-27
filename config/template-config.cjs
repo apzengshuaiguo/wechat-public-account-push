@@ -20,8 +20,9 @@ const TEMPLATE_CONFIG = [
       
       
       ---
-      
-      今天是我们相恋的第{{love_day.DATA}}天
+      我们相识已经{{meet_day.DATA}}天啦
+      今天是我们初次见面的第{{meet2_day.DATA}}天
+      我们已经在一起{{love_day.DATA}}天了哦！
       
       {{birthday_message.DATA}}
       
